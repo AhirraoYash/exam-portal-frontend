@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // The base URL for our user-related API endpoints
 // This comes from the "proxy" we set in package.json
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.local.VITE_API_URL;
 
 // Register user function
 const register = async (userData) => {
