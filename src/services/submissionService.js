@@ -1,7 +1,7 @@
 // In frontend/src/services/submissionService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/submissions/';
+const API_URL = import.meta.env.VITE_API_URL + 'submissions/';
 
 // Save a new test submission
 const submitTest = async (submissionData, token) => {

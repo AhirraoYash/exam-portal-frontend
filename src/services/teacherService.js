@@ -1,7 +1,7 @@
 // In frontend/src/services/teacherService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users/';
+const API_URL = import.meta.env.VITE_API_URL + 'users/';
 
 // Get all students (requires teacher token)
 const getStudents = async (token) => {

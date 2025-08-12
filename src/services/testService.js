@@ -1,7 +1,7 @@
 // In frontend/src/services/testService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/tests/';
+const API_URL = import.meta.env.VITE_API_URL + 'tests/';
 
 // Create a new test
 const createTest = async (testData, token) => {
