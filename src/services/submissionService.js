@@ -1,7 +1,7 @@
 // In frontend/src/services/submissionService.js
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL + 'submissions/';
+const API_URL ='https://exam-portal-backend-daxk.onrender.com/api/submissions/';
 
 // Save a new test submission
 const submitTest = async (submissionData, token) => {

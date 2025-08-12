@@ -1,7 +1,7 @@
 // In frontend/src/services/testService.js
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL + 'tests/';
+const API_URL ='https://exam-portal-backend-daxk.onrender.com/api/tests/';
 
 // Create a new test
 const createTest = async (testData, token) => {

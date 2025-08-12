@@ -1,7 +1,7 @@
 // In frontend/src/services/teacherService.js
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL + 'users/';
+const API_URL ='https://exam-portal-backend-daxk.onrender.com/api/users/';
 
 // Get all students (requires teacher token)
 const getStudents = async (token) => {
